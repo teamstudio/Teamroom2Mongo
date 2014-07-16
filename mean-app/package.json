@@ -1,0 +1,19 @@
+{
+  "name": "starter-node-angular",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.4",
+    "gridfs-stream": "^0.5.1",
+    "mongoose": "^3.8.12",
+    "request": "^2.37.0",
+    "serve-favicon": "^2.0.1"
+  }
+}

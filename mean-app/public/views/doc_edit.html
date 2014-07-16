@@ -1,0 +1,50 @@
+
+<form name="docForm" ng-submit="save()">
+<div class="panel panel-default">
+	<div class="panel-heading clearfix">
+
+
+		<h3 class="panel-title pull-left">{{selectedDoc.title || 'New document'}}</h3>
+		<div class="btn-group pull-right visible-xs">
+			<button class="btn btn-danger" type="button" ng-click="cancel()">
+				<span>Cancel</span>
+			</button>
+
+			<button class="btn btn-success" type="submit">
+				<i class="fa fa-check"></i>
+				<span>Save</span>
+			</button>
+		</div>
+		<div class="btn-group pull-right hidden-xs">
+			<button class="btn btn-danger" type="button" ng-click="cancel()">
+				<span>Cancel</span>
+			</button>
+
+			<button class="btn btn-success pull-right hidden-xs" href="" type="submit">
+				<i class="fa fa-check"></i>
+				<span>Save</span>
+			</button>
+		</div>
+	</div>
+	<div class="panel-body form-horizontal">
+
+		<div class="form-group">
+			<label class="col-xs-3 control-label">Title</label>
+			<div class="col-xs-9">
+				<input type="text" class="form-control" ng-model="selectedDoc.title" autofocus />
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-xs-3 control-label">Contents</label>
+			<div class="col-xs-9">
+				<textarea class="form-control" ng-model="selectedDoc.contents"></textarea>
+			</div>
+		</div>
+		
+	</div>
+	<div class="panel-footer">
+		-
+	</div>		
+</div>
+</form>

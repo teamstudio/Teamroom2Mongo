@@ -1,0 +1,69 @@
+
+<div class="row">
+
+	<div class="col-sm-4 bootcards-list">
+
+		<div class="panel panel-default">
+
+			<div class="panel-body">
+				<div class="search-form">
+					<div class="row">
+						<div class="col-xs-9">
+							<div class="form-group">
+								<input type="text" class="form-control" ng-model="search" placeholder="Search...">
+								<i class="fa fa-search"></i>
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<a class="btn btn-primary btn-block" ng-click="createDocument()">
+								<i class="fa fa-plus"></i> 
+								<span>Add</span>
+							</a>
+						</div>
+					</div>						    
+				</div>					
+			</div>
+
+			<div class="list-group" ng-repeat="document in documents | filter : search">
+
+				<!--load multiple classes depending on expressions-->
+				<a href="" ng-class="{'list-group-item' : true, 'active' : isSelected(document)}" ng-click="selectDocument(document)">
+					<i ng-show="isMeeting(document)" class="fa fa-2x pull-left fa-group"></i>
+					<i ng-show="isReference(document)" class="fa fa-2x pull-left fa-graduation-cap"></i>
+					<i ng-show="isDiscussion(document)" class="fa fa-2x pull-left fa-comment-o"></i>
+					<i ng-show="isAnnouncement(document)" class="fa fa-2x pull-left fa-bullhorn"></i>
+					
+					<h4 class="list-group-item-heading">{{document.title}}</h4>
+					<p class="list-group-item-text">{{document.created | date : 'MMM d, y h:mm a' }}</p>
+				</a>
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- doc details -->
+	<div class="col-sm-8">
+		
+		<div ng-show="isDocSelected()" ng-controller="DocCtrl">
+
+			<div ng-hide="editMode">
+				<ng-include src="'/views/doc.html'" ></ng-include>
+			</div>
+			<div ng-show="editMode">
+				<ng-include src="'/views/doc_edit.html'" ></ng-include>
+			</div>
+
+		</div>
+		
+		<div ng-hide="isDocSelected()" class="panel panel-default">
+			<div class="panel-body">Select or create a document</div>
+		</div>
+
+	</div>
+
+</div>
+
+</div>
