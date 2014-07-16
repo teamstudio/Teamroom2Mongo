@@ -1,4 +1,5 @@
-Teamroom2Mongo
-==============
+### Teamroom2mongo - Rewriting the Domino Teamroom using AngularJS and MongoDB ###
 
-Teamroom2Mongo
+You've probably noticed the huge trend in web application development: client side JavaScript frameworks to build your apps with, using REST APIs to connect to data stores. You've probably also noticed that **MongoDB**, a NoSQL database, has been getting a lot of attention lately. Both technologies are adopted by more developers and companies every day.
+
+We wondered what it would take to rewrite a well known standard Domino application using the **MEAN** stack: a combination of **MongoDB** (NoSQL database), **Express** (a NodeJS application server), **AngularJS** (a client side Javascript MVC framework) and **NodeJS** (JavaScript server). In this Github project we share the source code that came out of that process, which we hope will be helpful to other developers working on Domino to Mongo migration projects.
