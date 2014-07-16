@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" createForm="false" rendererType="javax.faces.Text">
+
+
+
+	<xp:this.afterRenderResponse><![CDATA[#{javascript: print("render it...");
+ try{ 
+       var externalContext = facesContext.getExternalContext(); 
+       var writer = facesContext.getResponseWriter(); 
+       writer.write( com.teamstudio.momo.TeamroomREST.doGet( externalContext.getRequest(), externalContext.getResponse() )); 
+       writer.endDocument(); } 
+    catch(e){ _dump(e);
+    }}]]></xp:this.afterRenderResponse></xp:view>

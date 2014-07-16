@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D11004330CE" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1c2" sequence="21" unid="9B2A5C1B43ECE6ABC1257D160049CC28">
+<created><datetime dst="true">20140715T152603,92+02</datetime></created>
+<modified><datetime dst="true">20140715T155307,66+02</datetime></modified>
+<revised><datetime dst="true">20140715T155307,64+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140715T155307,64+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140715T152603,92+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=LinQed</name><name>CN=Mark Leusink/O=LinQed</name></updatedby>
+<wassignedby><name>CN=Mark Leusink/O=LinQed</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/teamstudio/momo/TeamroomMetadata.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/teamstudio/momo/TeamroomMetadata.java</text></item>
+
+</note>

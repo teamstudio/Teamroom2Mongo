@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D11004330CE" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1aa" sequence="19" unid="7EE48D92D5F09555C1257D120041978E">
+<created><datetime dst="true">20140711T135626,38+02</datetime></created>
+<modified><datetime dst="true">20140711T140630,96+02</datetime></modified>
+<revised><datetime dst="true">20140711T140630,94+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140711T140630,94+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140711T135626,38+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=LinQed</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=LinQed</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/teamstudio/momo/RichTextCleaner.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/teamstudio/momo/RichTextCleaner.java</text></item>
+
+</note>

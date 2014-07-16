@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257D11004330CE" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1ae" sequence="2" unid="26BD2532A7C7C1CFC1257D120041BCEC">
+<created><datetime dst="true">20140711T135802,04+02</datetime></created>
+<modified><datetime dst="true">20140711T135802,13+02</datetime></modified>
+<revised><datetime dst="true">20140711T135802,12+02</datetime></revised>
+<lastaccessed><datetime dst="true">20140711T135802,12+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140711T135802,04+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=LinQed</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=LinQed</name></wassignedby>
+<item name="$TITLE"><text>jsoup-1.7.3.jar</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+<item name="$Flags"><text>34567Cg~,</text></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>jsoup-1.7.3.jar</text></item></note>
